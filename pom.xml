@@ -6,7 +6,7 @@
   <groupId>com.gtp</groupId>
   <artifactId>gaming-tournament-backend</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>gaming-tournament-backend</name>
   <description>Spring Boot backend for Gaming Tournament Portal</description>
@@ -25,6 +25,12 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+      <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-tomcat</artifactId>
+    <scope>provided</scope>
+    </dependency>
+
     </dependencies>
   </dependencyManagement>
 
